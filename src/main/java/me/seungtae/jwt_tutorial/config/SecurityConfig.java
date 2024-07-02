@@ -1,5 +1,9 @@
 package me.seungtae.jwt_tutorial.config;
 
+import me.seungtae.jwt_tutorial.jwt.JwtAccessDeniedHandler;
+import me.seungtae.jwt_tutorial.jwt.JwtAuthenticationEntryPoint;
+import me.seungtae.jwt_tutorial.jwt.JwtSecurityConfig;
+import me.seungtae.jwt_tutorial.jwt.TokenProvider;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
